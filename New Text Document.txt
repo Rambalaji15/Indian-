@@ -1,0 +1,38 @@
+copy tblCountry (code,name)
+from 	'C:/Users/Public/tblcountry.csv'
+with (FORMAT CSV, HEADER, encoding 'windows-1251');
+	
+--select * from tblCountry
+--insert into tblcountry(code, name) values('AD','Afghkan
+
+
+Postgresql classes 
+create table tbladdress (
+id serial primary key ,
+add1 varchar(50),
+add2  varchar(50), 
+add3 varchar(50),
+add4 varchar(50),
+cid int foreign key(cid) references by tblcountry(id)
+sid int foreign key(sid) references by  tblindiastate(id)
+);s
+
+
+
+create table tblcandidate_emp_history(
+id serial primary key,
+cid int ,foreign key(cid) references tblcountry(id),
+compid int, foreign key (compid) references tblcompany(id),
+from int,
+to int,
+historyid varchar (100)
+);
+
+
+
+DEFAULT CONTRAINTS
+CREATE TABLE products (
+    product_no integer,
+    name text,
+    price numeric DEFAULT 9.99
+);

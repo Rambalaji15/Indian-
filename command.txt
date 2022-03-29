@@ -1,0 +1,13 @@
+cd- change directory
+rm- remove folder
+ren-rename folder
+md - add folfer
+
+github command
+git --version
+git init
+git add filename.extension
+git commit -m "updated my code"
+git remote add origin https://github.com/Rambalaji15/Indian-.git
+git push -u origin master
+git checkout -b "newbranch name"

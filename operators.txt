@@ -1,0 +1,15 @@
+comparsion operator  =,<>,<,>,>=.!=
+
+arithmetic operator  +,-,*,/,%
+
+logical operator and,or,not ,between,in,like
+
+
+
+subquerys types
+1,scalar subqueries'
+2,multirow subquery
+3, corelated subquery
+
+
+CTE- common table expression 

@@ -1,0 +1,16 @@
+create  or replace function ram1()
+returns varchar(100)
+as $adds$
+declare 	
+adds varchar(100);
+begin 
+adds = concat('lt','lenin');
+ return adds;
+ end;
+ $adds$
+ language 'plpgsql';
+ select ram1()
+ 
+ 
+ 
+ 
